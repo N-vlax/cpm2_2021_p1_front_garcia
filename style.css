@@ -1,0 +1,35 @@
+.logo{
+   width: 7%;
+   height: 7%;
+    
+}
+
+.lien_nav{
+    
+}
+
+body{
+    margin: 3%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_flexend{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.flex_classic {
+    display: flex;
+    flex-flow: column;
+}
+
+.flex_colle {
+    display: flex;
+    
+}
