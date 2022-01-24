@@ -17,12 +17,6 @@ body{
     justify-content: space-between;
 }
 
-.nav_flexend{
-    display: flex;
-    justify-content: space-around;
-    
-    
-}
 
 .flex_classic {
     display: flex;
@@ -32,4 +26,44 @@ body{
 .flex_colle {
     display: flex;
     
+}
+
+.filter {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.filterColleGauche {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+form {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+
+}
+
+form i{
+    padding: 20px;
+    background-color: grey;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px ;
+}
+
+form button{
+    padding: 20px;
+    background-color: #0065FC;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+}
+    
+}
+
+#filterTotal {
+    display: flex;
 }
