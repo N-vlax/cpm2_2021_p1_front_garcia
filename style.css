@@ -106,7 +106,6 @@ h2 {
 }
 
 .card{
-    
     padding: 6px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -232,4 +231,10 @@ i {
 
 .sizeTitleh1 {
     font-size: 130%;
+}
+
+.totalCard{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
