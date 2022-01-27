@@ -10,6 +10,7 @@
 
 body{
     margin: 3%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .flex{
@@ -31,7 +32,7 @@ body{
 .filter {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 70%;
 
 }
 
@@ -39,6 +40,10 @@ body{
     display: flex;
     justify-content: flex-start;
     width: fit-content;
+}
+
+#filterTotal {
+    display: flex;
 }
 
 form {
@@ -49,7 +54,7 @@ form {
 
 form i{
     padding: 20px;
-    background-color: grey;
+    background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px ;
 }
@@ -60,10 +65,24 @@ form button{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     border: none;
+    font-size: large;
+    color: white;
 }
     
+form input{
+font-size: large;
+border-color: none;
+
+
 }
 
-#filterTotal {
-    display: flex;
+form ::placeholder{
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
+
+
+h1 {
+    font-size: 130%;
+}
+
