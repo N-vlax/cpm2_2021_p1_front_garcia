@@ -58,6 +58,7 @@ form i{
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px ;
+    color: black;
     
 }
 
@@ -86,10 +87,6 @@ form ::placeholder{
     font-size: 18px;
     padding-left: 4%;
     font-weight: 600;
-
-    
-
-
 }
 
 
@@ -150,19 +147,26 @@ h2 {
     
 }
 
-.cardLongue{
-
+.imgCardlongue{
+    height: 200px;
+    width: 180px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
 }
 
-div img{
+.imgCard{
     
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-    height: 180px;
-    
-   
+    height: 120px;
+    width: 230px;
     border: none;
-    max-width: 230px;
+    
+}
+
+.txtCard{
+    margin-left: 4%;
+    margin-bottom: auto;
 }
 
 .grandfondGris{
@@ -197,4 +201,8 @@ h3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
+}
+
+i {
+    color: #0065FC;
 }
