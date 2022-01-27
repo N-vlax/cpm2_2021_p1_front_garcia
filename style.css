@@ -238,3 +238,68 @@ i {
     flex-wrap: wrap;
     
 }
+
+.placeBottom{
+    margin-top: 3%;
+}
+
+.xlCard{
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 350px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    
+
+}
+
+.xlImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.medCard{
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 250px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    
+}
+
+
+.medImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.miniCard{
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 150px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    
+}
+
+.miniImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cardActiv{
+    display: flex;
+    flex-wrap: wrap;
+}
