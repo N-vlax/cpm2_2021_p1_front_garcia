@@ -44,6 +44,7 @@ body{
 
 #filterTotal {
     display: flex;
+    margin-top: -1%;
 }
 
 form {
@@ -57,6 +58,7 @@ form i{
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px ;
+    
 }
 
 form button{
@@ -72,13 +74,22 @@ form button{
 form input{
 font-size: large;
 border-color: none;
+border-style: solid;
+border-color: #F2F2F2;
+
 
 
 }
 
 form ::placeholder{
     color: black;
-    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding-left: 4%;
+    font-weight: 600;
+
+    
+
+
 }
 
 
@@ -86,3 +97,104 @@ h1 {
     font-size: 130%;
 }
 
+h2 {
+    font-size: 110%;
+}
+
+.margeUpdown{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.marginInterbox{
+    margin-left: 2%;
+    padding-top: 1%;
+}
+
+.card{
+    
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 2%;
+    height: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    max-width: 230px;
+}
+
+.cardLongue{
+
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    max-width: 400px;
+
+}
+
+#titleLonguecard{
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    
+}
+
+.cardLongue{
+
+}
+
+div img{
+    
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    height: 180px;
+    
+   
+    border: none;
+    max-width: 230px;
+}
+
+.grandfondGris{
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.grandeCard {
+    height: 600px;
+    width: 65%;
+}
+
+.petiteCardverticale {
+    height: 600px;
+    width: 32%;
+}
+
+
+h3 {
+    font-size: 1rem;
+}
+
+.grandecardGrise{
+    display: flex;
+}
+
+.grand{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
