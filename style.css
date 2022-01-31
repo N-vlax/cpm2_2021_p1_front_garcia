@@ -356,7 +356,7 @@ i {
 .footer{
     display: flex;
     justify-content: space-between;
-    max-width: 70%
+    max-width: 75%
 
 
 }
@@ -504,3 +504,223 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px)
+{
+
+.flex{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+
+
+.logo {
+    width: 135px;
+    height: 65px;
+    
+}
+
+.nav_around{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.lien_nav{
+   
+    text-decoration: underline;
+    color: #0065FC;
+    width: 50%;
+}
+
+#filterTotal {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+
+
+
+
+
+
+.activiteGrand{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.xlCard{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 220px;
+    width: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    margin-bottom: 2%;
+}
+
+.xlImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 170px;
+}
+
+
+
+body {
+    max-width: 100%;
+}
+
+
+
+.totalCard{
+    flex-wrap: wrap-reverse;
+}
+
+
+
+
+
+.grandeCard{
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.petiteCardverticale{
+    position: relative;
+    width: 100%;
+    margin: -2%;
+    flex-wrap: wrap-reverse;
+}
+
+.cardLongue{
+    
+        padding: 6px;
+        height: 130px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+        border: none;
+        width: 300px;
+        display: flex;
+        margin-right: 8%;
+        
+ }
+
+#titleLonguecard{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-size: 130%;
+    
+}
+
+.imgCardlongue{
+    height: 130px;
+    width: 120px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+
+
+.grand {
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 220px;
+    width: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+}
+
+.imgCard{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 270px;
+    height: 140px;
+}
+
+.medCard{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 220px;
+    width: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    margin-bottom: 2%;
+}
+
+.medImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 170px;
+}
+
+.miniCard{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 220px;
+    width: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    margin-bottom: 2%;
+}
+
+.miniImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 170px;
+}
+
+
+
+}
+
