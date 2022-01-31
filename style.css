@@ -244,12 +244,12 @@ i {
 }
 
 .xlCard{
-    padding: 6px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 350px;
+    height: 400px;
+    width: 270px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
@@ -260,6 +260,8 @@ i {
 .xlImg{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    height: 350;
+    width: 270px;
 }
 
 .medCard{
@@ -302,4 +304,10 @@ i {
 .cardActiv{
     display: flex;
     flex-wrap: wrap;
+}
+
+.paddingCardactiv{
+    display: flex;
+   margin-left: 6%;
+   margin-top: 6%;
 }
