@@ -413,7 +413,10 @@ i {
     width: 180px;
 }
 
-
+.filtreCase:hover {
+    background-color:#0065FC;
+    color: white;
+}
 
 .centreIcones {
     font-size: 20px;
@@ -450,6 +453,11 @@ i {
 
 }
 
+.familialReduit:hover{
+    background-color:#0065FC;
+    color: white;
+}
+
 .txtFiltreFamilial{
     margin-right: 14%;
 }
@@ -470,6 +478,11 @@ i {
     height: 50px;
     width: 240px;
 
+}
+
+.animalMax:hover{
+    background-color:#0065FC;
+    color: white;
 }
 
 .lien_nav:hover {
