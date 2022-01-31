@@ -118,12 +118,13 @@ h2 {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 2%;
-    margin-left: 4%;
+    margin-left: 2%;
     height: 200px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
-    max-width: 230px;
+    max-width: 270px;
+
 }
 
 .cardLongue{
@@ -146,9 +147,9 @@ h2 {
 }
 
 #titleLonguecard{
-    margin-top: 6%;
+    margin-top: 8%;
     margin-left: 10%;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     font-size: 130%;
     
 }
@@ -165,7 +166,7 @@ h2 {
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     height: 120px;
-    width: 230px;
+    width: 270px;
     border: none;
     
 }
@@ -239,9 +240,14 @@ i {
     font-size: 130%;
 }
 
+.gMarge{
+    margin-left: 1%;
+}
+
 .totalCard{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 3%;
     
 }
 
@@ -375,13 +381,8 @@ i {
  margin-bottom: 3%;
 }
 
-
-.filtreCase{
-    border: solid 2px #F2F2F2;
-}
-
 .affichePlus {
-    margin-left: 4%;
+    margin-left: 5%;
     margin-top: -1%;
     
 }
@@ -399,3 +400,34 @@ i {
     display: flex;
     justify-content: space-between;
 }
+
+.filtreCase{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px #F2F2F2;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 50px;
+    width: 180px;
+}
+
+
+
+.centreIcones {
+    font-size: 20px;
+    padding: 15px;
+    background-color:#DEEBFF ;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px ;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px ;
+}
+
+
+
+.txtFiltredecale{
+    margin-right: 8%;
+}
+
