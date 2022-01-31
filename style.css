@@ -338,3 +338,25 @@ i {
 .secondActivite{
     margin-top: 4%;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%
+
+
+}
+
+.footerTxt{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.fondgrisFooter{
+    margin-top: 4%;
+    padding: 3%;
+    background-color: #F2F2F2;
+    width: 100%;
+
+}
