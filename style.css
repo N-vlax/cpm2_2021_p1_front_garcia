@@ -186,12 +186,12 @@ h2 {
 }
 
 .grandeCard {
-    height: 600px;
+    height: 640px;
     width: 65%;
 }
 
 .petiteCardverticale {
-    height: 600px;
+    height: 640px;
     width: 32%;
 }
 
@@ -246,7 +246,7 @@ i {
 }
 
 .placeBottom{
-    margin-top: 3%;
+    margin-top: 6%;
 }
 
 .xlCard{
@@ -255,7 +255,7 @@ i {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 500px;
-    width: 300px;
+    width: 350px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
@@ -268,7 +268,7 @@ i {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 450;
-    width: 300px;
+    width: 350px;
 }
 
 .medCard{
@@ -277,7 +277,7 @@ i {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 250px;
-    width: 300px;
+    width: 350px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
@@ -288,7 +288,7 @@ i {
 .medImg{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 350px;
     height: 200px;
 }
 
@@ -298,7 +298,7 @@ i {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 220px;
-    width: 300px;
+    width: 350px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
@@ -308,19 +308,20 @@ i {
 .miniImg{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 350px;
     height: 170px;
 }
 
 .cardActiv{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 4%;
 }
 
 .marginCardactiv{
    display: flex;
    margin-left: 6%;
-   margin-top: 6%;
+  
 }
 
 .limitLarge{
@@ -343,6 +344,7 @@ i {
 
 .secondActivite{
     margin-top: 4%;
+    margin-left: 4%;
 }
 
 .footer{
@@ -376,4 +378,24 @@ i {
 
 .filtreCase{
     border: solid 2px #F2F2F2;
+}
+
+.affichePlus {
+    margin-left: 4%;
+    margin-top: -1%;
+    
+}
+
+.chartsBlack{
+    color: black;
+    font-size: 25px;
+    margin-top: 6%;
+    margin-right: 10%;
+
+    
+}
+
+.chartsCote {
+    display: flex;
+    justify-content: space-between;
 }
