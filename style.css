@@ -4,6 +4,12 @@
     
 }
 
+.nav_around{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+
+}
 
 body{
     margin: 3%;
@@ -365,4 +371,9 @@ i {
 
 .txtFootmarge{
  margin-bottom: 3%;
+}
+
+
+.filtreCase{
+    border: solid 2px #F2F2F2;
 }
