@@ -266,7 +266,6 @@ i {
 }
 
 .medCard{
-    padding: 6px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -283,15 +282,17 @@ i {
 .medImg{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 270px;
+    height: 150px;
 }
 
 .miniCard{
-    padding: 6px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 150px;
+    width: 270px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
@@ -301,6 +302,8 @@ i {
 .miniImg{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 270px;
+    height: 100px;
 }
 
 .cardActiv{
@@ -308,7 +311,7 @@ i {
     flex-wrap: wrap;
 }
 
-.paddingCardactiv{
+.marginCardactiv{
    display: flex;
    margin-left: 6%;
    margin-top: 6%;
