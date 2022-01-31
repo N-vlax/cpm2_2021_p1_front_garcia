@@ -354,9 +354,15 @@ i {
 }
 
 .fondgrisFooter{
+    
+    margin: -3%;
     margin-top: 4%;
     padding: 3%;
     background-color: #F2F2F2;
     width: 100%;
 
+}
+
+.txtFootmarge{
+ margin-bottom: 3%;
 }
