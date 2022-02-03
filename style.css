@@ -33,6 +33,19 @@ body{
     
 }
 
+.searchIcon{
+    color: white;
+    background-color:#0065FC;
+    width: 18px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    visibility: hidden;
+    display: none;
+}
+
+
+
+
 .filter {
     display: flex;
     justify-content: space-around;
@@ -49,7 +62,7 @@ body{
 #filterTotal {
     display: flex;
     margin-bottom: 2%;
-    margin-left: 4%;
+    
 }
 
 form {
@@ -576,7 +589,8 @@ form {
     padding: 15px 0px 15px 0px;
     display: flex;
     margin-left: 4%;
-    margin-top: 4%;
+    margin-top: 3%;
+    margin-bottom: -1% ;
 
 }
 
@@ -599,7 +613,8 @@ font-size: large;
 border-color: none;
 border-style: solid;
 border-color: #F2F2F2;
-width: 180px;
+width: 235px;
+border-right: none;
 
 }
 
@@ -852,4 +867,14 @@ body {
 
 }
 
+.searchIcon{
+    
+        color: white;
+        background-color:#0065FC;
+        width: 18px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        visibility: visible;
+    }
 
+}
