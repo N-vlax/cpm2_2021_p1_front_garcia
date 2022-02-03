@@ -659,9 +659,23 @@ body {
 
 
 .petiteCardverticale{
-    width: 100%;
+    background-color: #F2F2F2;
+    width: fit-content;
+    padding: 7%;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 580px;
 }
 
+.chartsBlack{
+    color: black;
+    font-size: 25px;
+    margin-top: 8%;
+    margin-right: 1%;
+    
+}
 
 .cardLongue{
     
@@ -670,15 +684,15 @@ body {
         background-color: #FFFFFF;
         box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
         border: none;
-        width: 330px;
+        width: 310px;
         display: flex;
         margin-right: 3%;
-        margin-left: 2%;
+        margin-left: 0%;
  }
 
 #titleLonguecard{
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 1%;
     margin-bottom: 2%;
     font-size: 130%;
     
@@ -815,15 +829,13 @@ body {
     margin-top: 15%;
     padding: 6%;
     background-color: #F2F2F2;
-    width: 92%;
+    width: 94%;
 
 }
 
 .footerTxt{
     margin-bottom: 6%;
 }
-
-
 
 
 }
