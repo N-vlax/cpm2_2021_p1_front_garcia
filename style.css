@@ -627,7 +627,7 @@ width: 180px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
-    margin-bottom: 2%;
+    margin-bottom: 6%;
     
 }
 
@@ -645,16 +645,9 @@ body {
     max-width: 100%;
 }
 
-
-
 .totalCard{
-    margin-left: 8%;
-
+    margin-left: 1%;
 }
-
-
-
-
 
 .grandeCard{
     width: 100%;
@@ -677,10 +670,10 @@ body {
         background-color: #FFFFFF;
         box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
         border: none;
-        width: 300px;
+        width: 330px;
         display: flex;
-        margin-right: 8%;
-        
+        margin-right: 3%;
+        margin-left: 2%;
  }
 
 #titleLonguecard{
@@ -707,6 +700,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    margin-bottom: 205%;
+    margin-top: 15%;
 }
 
 
@@ -715,18 +710,22 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 220px;
-    width: 300px;
+    height: 180px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
+    max-width: 330px;
+}
+
+.starC{
+    margin-top: 1%;
 }
 
 .imgCard{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 270px;
-    height: 140px;
+    width: 320px;
+    height: 110px;
 }
 
 .medCard{
@@ -739,7 +738,7 @@ body {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
 }
 
 .medImg{
@@ -759,7 +758,7 @@ body {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
     border: none;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
 }
 
 .miniImg{
@@ -775,7 +774,6 @@ body {
 
 .filter{
     flex-direction: column ;
-    
     
 }
 
@@ -802,8 +800,28 @@ body {
     flex-direction: column;
 }
 
+.topMargecard{
+    margin-top: 7%;
+}
 
+.sizeTitleh1{
+    margin-left: 4%;
+}
 
+.fondgrisFooter{
+    
+    
+    margin: -3%;
+    margin-top: 15%;
+    padding: 6%;
+    background-color: #F2F2F2;
+    width: 92%;
+
+}
+
+.footerTxt{
+    margin-bottom: 6%;
+}
 
 
 
