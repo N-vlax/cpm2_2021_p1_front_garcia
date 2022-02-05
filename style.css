@@ -1,8 +1,39 @@
+/*  PARTIE 0 APPLICATION GENERALES */
+
+body{
+    margin: 3%;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 130%;
+}
+
+h2 {
+    font-size: 110%;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+i {
+    color: #0065FC;
+}
+
+
+/*  PARTIE 1 LOGO ET NAV BAR */
+
 .logo{
    width: 70%;
    height: 100%;
    margin-right: 5%;
     
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav_around{
@@ -12,16 +43,30 @@
 
 }
 
-body{
-    margin: 3%;
-    font-family: 'Raleway', sans-serif;
+.lien_nav:hover {
+    color:#0065FC;
+    transition: all;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
+.lien_nav:hover a{
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
+    padding-top: 43%;
+
 }
 
+.lien_nav2:hover a{
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
+    padding-top: 75%;
+}
+
+.lien_nav a {
+    color: black;
+    text-decoration:none;
+}
+
+/*  PARTIE 2 ECRITURE + BOUTON*/
 
 .flex_classic {
     display: flex;
@@ -30,38 +75,6 @@ body{
 
 .flex_colle {
     display: flex;
-    
-}
-
-.searchIcon{
-    color: white;
-    background-color:#0065FC;
-    width: 18px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    visibility: hidden;
-    display: none;
-}
-
-
-
-
-.filter {
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-
-}
-
-.filterColleGauche {
-    display: flex;
-    justify-content: flex-start;
-    width: fit-content;
-}
-
-#filterTotal {
-    display: flex;
-    margin-bottom: 2%;
     
 }
 
@@ -92,12 +105,8 @@ form button{
     
 form input{
 font-size: large;
-border-color: none;
 border-style: solid;
 border-color: #F2F2F2;
-
-
-
 }
 
 form ::placeholder{
@@ -107,313 +116,82 @@ form ::placeholder{
     font-weight: 600;
 }
 
-
-h1 {
-    font-size: 130%;
+.searchIcon{
+    color: white;
+    background-color:#0065FC;
+    width: 18px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    visibility: hidden;
+    display: none;
 }
 
-h2 {
-    font-size: 110%;
-}
 
-.margeUpdown{
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
+/*  PARTIE 3 FILTRES */
 
-.marginInterbox{
-    margin-left: 4%;
-    padding-top: 2%;
-}
-
-.card{
-    padding: 6px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin: 2%;
-    margin-left: 2%;
-    height: 200px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
-    border: none;
-    max-width: 270px;
-
-}
-
-.cardLongue{
-
-    padding: 6px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 6%;
-    height: 130px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
-    border: none;
-    max-width: 400px;
+.filter {
     display: flex;
+    justify-content: space-around;
+    width: 60%;
 
 }
 
-#titleLonguecard{
-    margin-top: 8%;
-    margin-left: 10%;
+.filterColleGauche {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+#filterTotal {
+    display: flex;
     margin-bottom: 2%;
-    font-size: 130%;
     
 }
 
-.imgCardlongue{
-    height: 130px;
+.animalMax {
+
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px #F2F2F2;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 50px;
+    width: 240px;
+
+}
+
+.animalMax:hover{
+    background-color:#0065FC;
+    color: white;
+}
+
+.familialReduit {
+
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px #F2F2F2;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 50px;
     width: 150px;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
-}
-
-.imgCard{
-    
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    height: 120px;
-    width: 270px;
-    border: none;
-    
-}
-
-.txtCard{
-    margin-top: 4%;
-    margin-left: 4%;
-    margin-bottom: auto;
-}
-
-.grandfondGris{
-    background-color: #F2F2F2;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    
-}
-
-.grandeCard {
-    height: 640px;
-    width: 65%;
-}
-
-.petiteCardverticale {
-    height: 640px;
-    width: 32%;
-}
-
-
-h3 {
-    font-size: 1rem;
-}
-
-.grandecardGrise{
-    display: flex;
-}
-
-.grand{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
-}
-
-i {
-    color: #0065FC;
-}
-
-.margetxtLongue{
-    margin-left: 4%;
-    max-width: 180px;
-}
-
-#rapproche{
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.sizeEtmarge{
-    font-size: 14px;
-    margin-top: 12%;
 
 }
 
-.starC {
-    font-size: 14px;
-    margin-top: 4%;
+.familialReduit:hover{
+    background-color:#0065FC;
+    color: white;
 }
 
-.sizeTitleh1 {
-    font-size: 130%;
+.txtFiltreFamilial{
+    margin-right: 14%;
 }
 
-.gMarge{
-    margin-left: 1%;
-}
-
-.totalCard{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 3%;
-    
-}
-
-.placeBottom{
-    margin-top: 6%;
-}
-
-.xlCard{
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 500px;
-    width: 350px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
-    border: none;
-    margin-right: 4%;
-    
-
-}
-
-.xlImg{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 450;
-    width: 350px;
-}
-
-.medCard{
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 250px;
-    width: 350px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
-    border: none;
-    
-}
-
-
-.medImg{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 350px;
-    height: 200px;
-}
-
-.miniCard{
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 220px;
-    width: 350px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
-    border: none;
-    
-}
-
-.miniImg{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 350px;
-    height: 170px;
-}
-
-.cardActiv{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 4%;
-}
-
-.marginCardactiv{
-   display: flex;
-   margin-left: 6%;
-  
-}
-
-.limitLarge{
-    width: 50%;
-}
-
-.wrapCard{
-    display: flex;
-    flex-flow: column;
-    margin-left: 4%;
-}
-
-.topMargecard{
-    margin-top: 10%;
-}
-
-.activiteGrand{
-    display: flex;
-}
-
-.secondActivite{
-    margin-top: 4%;
-    margin-left: 4%;
-}
-
-.footer{
-    display: flex;
-    justify-content: space-between;
-    max-width: 75%
-
-
-}
-
-.footerTxt{
-    display: flex;
-    flex-flow: column;
-    
-}
-
-.fondgrisFooter{
-    
-    margin: -3%;
-    margin-top: 4%;
-    padding: 3%;
-    background-color: #F2F2F2;
-    width: 100%;
-
-}
-
-.txtFootmarge{
- margin-bottom: 3%;
-}
-
-.affichePlus {
-    margin-left: 5%;
-    margin-top: -1%;
-    
-}
-
-.chartsBlack{
-    color: black;
-    font-size: 25px;
-    margin-top: 8%;
-    margin-right: 10%;
-
-    
-}
-
-.chartsCote {
-    display: flex;
-    justify-content: space-between;
+.txtFiltredecale{
+    margin-right: 8%;
 }
 
 .filtreCase{
@@ -445,7 +223,7 @@ i {
 
 .iconeChild {
     font-size: 20px;
-    width: 20;
+    width: 20px;
     padding-left: 10%;
     background-color:#DEEBFF ;
     border-bottom-left-radius: 40px;
@@ -454,73 +232,303 @@ i {
     border-top-right-radius: 40px ;
 }
 
-.familialReduit {
 
+/*  PARTIE 4 TXT 500 LOGEMENTS AVEC ICONE */
+
+.margeUpdown{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+/*  PARTIE 5 CARD CENTRALE*/
+
+.grandecardGrise{
+    display: flex;
+}
+
+.grand{
     display: flex;
     justify-content: space-between;
-    border: solid 2px #F2F2F2;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-    height: 50px;
-    width: 150px;
+    flex-wrap: wrap-reverse;
+}
+
+.grandfondGris{
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.grandeCard {
+    height: 640px;
+    width: 65%;
+}
+
+.marginInterbox{
+    margin-left: 4%;
+    padding-top: 2%;
+}
+
+.sizeTitleh1 {
+    font-size: 130%;
+}
+
+.gMarge{
+    margin-left: 1%;
+}
+
+.totalCard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    
+}
+
+.card{
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 2%;
+    margin-left: 2%;
+    height: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    max-width: 270px;
 
 }
 
-.familialReduit:hover{
-    background-color:#0065FC;
-    color: white;
+.imgCard{
+    
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    height: 120px;
+    width: 270px;
+    border: none;
+    
 }
 
-.txtFiltreFamilial{
-    margin-right: 14%;
+.txtCard{
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: auto;
 }
 
-.txtFiltredecale{
-    margin-right: 8%;
+.starC {
+    font-size: 14px;
+    margin-top: 4%;
 }
 
-.animalMax {
+.affichePlus {
+    margin-left: 5%;
+    margin-top: -1%;
+    
+}
 
+
+/*  PARTIE 6 CARD LATERALE VERTICALE (DROITE) */
+
+
+.petiteCardverticale {
+    height: 640px;
+    width: 32%;
+}
+
+.chartsCote {
     display: flex;
     justify-content: space-between;
-    border: solid 2px #F2F2F2;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-    height: 50px;
-    width: 240px;
-
 }
 
-.animalMax:hover{
-    background-color:#0065FC;
-    color: white;
+#titleLonguecard{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-size: 130%;
+    
 }
 
-.lien_nav:hover {
-    color:#0065FC;
-    transition: all;
-}
-
-.lien_nav:hover a{
-    color: #0065FC;
-    border-top: solid 3px #0065FC;
-    padding-top: 43%;
-
-}
-
-.lien_nav2:hover a{
-    color: #0065FC;
-    border-top: solid 3px #0065FC;
-    padding-top: 75%;
-}
-
-.lien_nav a {
+.chartsBlack{
     color: black;
-    text-decoration:none;
+    font-size: 25px;
+    margin-top: 8%;
+    margin-right: 10%;  
+}
+
+.cardLongue{
+
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    height: 130px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    max-width: 400px;
+    display: flex;
+
+}
+
+.imgCardlongue{
+    height: 130px;
+    width: 150px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.margetxtLongue{
+    margin-left: 4%;
+    max-width: 180px;
+}
+
+.rapproche{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sizeEtmarge{
+    font-size: 14px;
+    margin-top: 12%;
+
+}
+
+
+/*  PARTIE 7 ESPACE ACTIVITE */
+
+
+.activiteGrand{
+    display: flex;
+}
+
+.limitLarge{
+    width: 50%;
+}
+
+.placeBottom{
+    margin-top: 6%;
+}
+
+.cardActiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.marginCardactiv{
+   display: flex;
+   margin-left: 6%;
+}
+
+.xlCard{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 500px;
+    width: 350px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    margin-right: 4%;
+}
+
+.xlImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 450px;
+    width: 350px;
+}
+
+.medCard{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 250px;
+    width: 350px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none; 
+}
+
+.medImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 350px;
+    height: 200px;
+}
+
+.miniCard{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 220px;
+    width: 350px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    border: none;
+    
+}
+
+.miniImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 350px;
+    height: 170px;
+}
+
+
+.wrapCard{
+    display: flex;
+    flex-flow: column;
+    margin-left: 4%;
+}
+
+.topMargecard{
+    margin-top: 10%;
+}
+
+.secondActivite{
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+
+/*  PARTIE 8 FOOTER  */
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%
+}
+
+.footerTxt{
+    display: flex;
+    flex-flow: column;   
+}
+
+.fondgrisFooter{
+    
+    margin: -3%;
+    margin-top: 4%;
+    padding: 3%;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.txtFootmarge{
+ margin-bottom: 3%;
 }
 
 a {
@@ -540,9 +548,35 @@ a {
 
 
 
+
+
+/*   MEDIA QUERY POUR LE FORMAT TELEPHONE  */
+
+
+
 @media screen and (max-width: 768px)
 {
 
+/* APPLICATION GENERALE  */
+
+body {
+    max-width: 100%;
+}   
+
+/* HEADER */
+
+.logo {
+    width: 135px;
+    height: 65px;
+}
+
+.enfantLogo{
+    display: flex;
+    justify-content: center;
+    margin-left: 20% ;
+    margin-bottom: 4%;
+}
+    
 .flex{
     display: flex;
     flex-flow: column;
@@ -554,20 +588,6 @@ a {
     margin-left: 4%;
     margin-top: 4%;
 }
-
-.logo {
-    width: 135px;
-    height: 65px;
-
-}
-
-.enfantLogo{
-    display: flex;
-    justify-content: center;
-    margin-left: 20% ;
-    margin-bottom: 4%;
-}
-
 
 .nav_around{
     width: 100%;
@@ -583,6 +603,8 @@ a {
     padding-bottom: 4%;
 }
 
+
+/*  FORMULAIRE  MODIF  */
 
 
 form {
@@ -610,7 +632,6 @@ form button{
     
 form input{
 font-size: large;
-border-color: none;
 border-style: solid;
 border-color: #F2F2F2;
 width: 235px;
@@ -618,10 +639,16 @@ border-right: none;
 
 }
 
+
+/* FILTRES  */
+
+
 #filterTotal {
     display: flex;
     flex-flow: column;
 }
+
+/*   TOUTES LES CARDS EN GENERAL   */
 
 .activiteGrand{
     display: flex;
@@ -659,10 +686,6 @@ border-right: none;
     height: 130px;
 }
 
-body {
-    max-width: 100%;
-}
-
 .totalCard{
     margin-left: 1%;
 }
@@ -671,10 +694,6 @@ body {
     width: 100%;
     background-color: white;
 }
-
-
-
-
 
 .petiteCardverticale{
     background-color: #F2F2F2;
@@ -722,8 +741,6 @@ body {
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
 }
-
-
 
 .grand {
     
